@@ -1,0 +1,39 @@
+[
+  {
+    "id": "nunc-ornare-et-ligula-sed-pellentesque",
+    "date": "2016-11-10",
+    "category": "alpha",
+    "imageFormat": "jpg"
+  },
+  {
+    "id": "fusce-iaculis-enim-elis",
+    "date": "2016-11-15",
+    "category": "beta",
+    "imageFormat": "jpg"
+  },
+  {
+    "id": "vestibulum-eget-lectus-odio",
+    "date": "2016-12-5",
+    "category": "alpha",
+    "imageFormat": "jpg"
+  },
+  {
+    "id": "fusce-quis-turpis-quis-mauris-suscipit-consequat",
+    "date": "2017-1-1",
+    "category": "gamma",
+    "imageFormat": "jpg"
+  },
+  {
+    "id": "etiam-in-erat-eget-sem-accumsan-rhoncus",
+    "date": "2016-12-20",
+    "category": "gamma",
+    "imageFormat": "jpg"
+  },
+  {
+    "id": "vivamus-in-sapien-aliquam",
+    "date": "2016-12-29",
+    "category": "beta",
+    "imageFormat": "jpg"
+  }
+
+]
