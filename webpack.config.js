@@ -12,6 +12,7 @@ const config = {
 
   devServer: {
     inline: true,
+    historyApiFallback: true,
     port: 8080
   },
 
