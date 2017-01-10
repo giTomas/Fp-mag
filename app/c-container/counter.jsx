@@ -53,6 +53,4 @@ const Counter = ({store, id}) => {
     )
   };
 
-
-
 export default observer(Counter);
