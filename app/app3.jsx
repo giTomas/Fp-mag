@@ -39,9 +39,9 @@ export const t = new class Temperature {
   }
 
   @action("set temperature and unit")
-  setTemperatureAndUnit(degrees, unit) {
-    this.setCelsius(degrees);
-    this.setUnit(unit);
+    setTemperatureAndUnit(degrees, unit) {
+      this.setCelsius(degrees);
+      this.setUnit(unit);
   }
 
 }
@@ -50,7 +50,7 @@ export const t = new class Temperature {
 
 t.setUnit('K');
 t.setCelsius(31);
-t.setTemperatureAndUnit(27, 'F') 
+t.setTemperatureAndUnit(27, 'F')
 
 
 export const App = observer(({ temperature }) => (

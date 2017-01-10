@@ -35,6 +35,10 @@ const config = {
           loader: "style-loader!css-loader",
         },
         {
+          test: /\.json$/,
+          loader: 'json'
+        },
+        {
           test: /\.(jpe?g|png|gif|svg)$/i,
           loaders: [
               'file?hash=sha512&digest=hex&name=[hash].[ext]',
@@ -44,9 +48,14 @@ const config = {
     ],
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js', '.jsx', '.json']
   },
-  // plugins: [
+
+  plugins: [
+      new webpack.ProvidePlugin({
+        Promise: 'imports?this=>global!exports?global.Promise!es6-promise',
+        fetch: 'imports?this=>global!exports?global.fetch!whatwg-fetch',
+      }),
   //   new webpack.DefinePlugin({
   //     'process.env.NODE_ENV': JSON.stringify('production')
   //   }),
@@ -55,7 +64,7 @@ const config = {
   //       warnings: false
   //     }
   //   })
-  // ]
+  ]
 
 };
 
