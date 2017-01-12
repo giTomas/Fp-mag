@@ -16,14 +16,14 @@ const config = {
     port: 8080
   },
   eslint: {
-    emitiWarning: true,
+    emitWarning: true,
     configfile: './.eslintrc',
   },
   module: {
     preLoaders: [
       {
       test: /\.js$/,
-      loader: 'eslint?parser=babel-eslint',
+      loader: 'eslint-loader',
       exclude: /node_modules/,
        }
     ],
@@ -47,6 +47,10 @@ const config = {
         {
           test: /\.css$/,
           loader: "style-loader!css-loader",
+        },
+        {
+          test: /\.json$/,
+          loader: 'json'
         },
         {
           test: /\.(jpe?g|png|gif|svg)$/i,
