@@ -12,15 +12,25 @@ const config = {
 
   devServer: {
     inline: true,
-    historyApiFallback: true,
+    // historyApiFallback: true,
     port: 8080
   },
-
+  eslint: {
+    emitiWarning: true,
+    configfile: './.eslintrc',
+  },
   module: {
+    preLoaders: [
+      {
+      test: /\.js$/,
+      loader: 'eslint?parser=babel-eslint',
+      exclude: /node_modules/,
+       }
+    ],
     loaders: [
         {
           test:/\.jsx?$/,
-          exclude: /node_module/,
+          exclude: /node_modules/,
           loader: 'babel-loader',
 
 
@@ -29,6 +39,10 @@ const config = {
             presets: ['es2015', 'react', 'stage-0', 'stage-1', 'stage-3'],
             plugins: ['transform-decorators-legacy']
           },
+        },
+        {
+          test: /\.json$/,
+          loader: 'json-loader',
         },
         {
           test: /\.css$/,
@@ -44,9 +58,13 @@ const config = {
     ],
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js', '.jsx', '.json']
   },
-  // plugins: [
+  plugins: [
+    new webpack.ProvidePlugin({
+    Promise: 'imports?this=>global!exports?global.Promise!es6-promise',
+    fetch: 'imports?this=>global!exports?global.fetch!whatwg-fetch',
+  }),
   //   new webpack.DefinePlugin({
   //     'process.env.NODE_ENV': JSON.stringify('production')
   //   }),
@@ -55,7 +73,7 @@ const config = {
   //       warnings: false
   //     }
   //   })
-  // ]
+  ]
 
 };
 

@@ -6,6 +6,7 @@ import DevTools from 'mobx-react-devtools';
 useStrict(true);
 //observable sa mozeu menit iba akciami
 
+
 export const t = new class Temperature {
   id = Math.random();
   @observable unit = "C";
@@ -50,7 +51,7 @@ export const t = new class Temperature {
 
 t.setUnit('K');
 t.setCelsius(31);
-t.setTemperatureAndUnit(27, 'F') 
+t.setTemperatureAndUnit(27, 'F')
 
 
 export const App = observer(({ temperature }) => (
