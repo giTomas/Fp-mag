@@ -22,8 +22,8 @@ const config = {
   module: {
     preLoaders: [
       {
-      test: /\.js$/,
-      loader: 'eslint-loader',
+      test: /\.jsx?$/,
+      loader: 'eslint?parser=babel-eslint',
       exclude: /node_modules/,
        }
     ],
