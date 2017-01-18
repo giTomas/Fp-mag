@@ -24,6 +24,7 @@ styled-componets: https://medium.com/@jamiedixon/styled-components-production-pa
 https://www.youtube.com/watch?v=gNeavlJ7lNY
 
 #Best Practises
+https://github.com/ryanmcdermott/clean-code-javascript?utm_source=dlvr.it&utm_medium=facebook
 
 #Style
 https://css-tricks.com/guide-responsive-friendly-css-columns/
