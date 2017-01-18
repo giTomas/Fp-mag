@@ -8,6 +8,20 @@ https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.
 
 https://medium.com/javascript-inside/the-elegance-of-react-ebc21a2dcd19#.up1ezc4pg
 
+#Building React App
+
+http://patternhatch.com/2016/08/02/a-primer-on-the-react-ecosystem-part-2-of-3/#container
+
+#React style
+Styled-componets: https://www.smashingmagazine.com/2017/01/styled-components-enforcing-best-practices-component-based-systems/
+Styled-componets: https://styled-components.com/
+styled-componets: https://mxstbr.blog/2016/11/styled-components-magic-explained/
+styled-componets: https://medium.com/@jamiedixon/styled-components-production-patterns-c22e24b1d896#.o45qjvdz9
+
+https://www.youtube.com/watch?v=gNeavlJ7lNY
+
+#Best Practises
+
 #Style
 https://css-tricks.com/guide-responsive-friendly-css-columns/
 
@@ -19,4 +33,13 @@ https://www.smashingmagazine.com/2016/05/fluid-typography/
 http://blog.typekit.com/2016/08/17/flexible-typography-with-css-locks/?utm_source=dlvr.it&utm_medium=facebook
 
 #Design
-http://www.magazinedesigning.com/magazine-columns/
+Atomic Design: http://atomicdesign.bradfrost.com/table-of-contents/
+Lego-design: http://alistapart.com/article/learning-from-lego-a-step-forward-in-modular-web-design
+Columns:http://www.magazinedesigning.com/magazine-columns/
+
+#Typography
+http://anartfulscience.com/Typography-First.php
+
+#UI
+http://alistapart.com/article/learning-from-lego-a-step-forward-in-modular-web-design
+
