@@ -14,8 +14,11 @@ http://patternhatch.com/2016/08/02/a-primer-on-the-react-ecosystem-part-2-of-3/#
 
 #React style
 Styled-componets: https://www.smashingmagazine.com/2017/01/styled-components-enforcing-best-practices-component-based-systems/
+
 Styled-componets: https://styled-components.com/
+
 styled-componets: https://mxstbr.blog/2016/11/styled-components-magic-explained/
+
 styled-componets: https://medium.com/@jamiedixon/styled-components-production-patterns-c22e24b1d896#.o45qjvdz9
 
 https://www.youtube.com/watch?v=gNeavlJ7lNY
@@ -34,7 +37,9 @@ http://blog.typekit.com/2016/08/17/flexible-typography-with-css-locks/?utm_sourc
 
 #Design
 Atomic Design: http://atomicdesign.bradfrost.com/table-of-contents/
+
 Lego-design: http://alistapart.com/article/learning-from-lego-a-step-forward-in-modular-web-design
+
 Columns:http://www.magazinedesigning.com/magazine-columns/
 
 #Typography
