@@ -51,3 +51,7 @@ http://anartfulscience.com/Typography-First.php
 #UI
 http://alistapart.com/article/learning-from-lego-a-step-forward-in-modular-web-design
 
+https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda#.vrcu2zl2z
+
+Color: https://medium.com/@erikdkennedy/color-in-ui-design-a-practical-framework-e18cacd97f9e#.u70dafpto
+
