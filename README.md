@@ -12,6 +12,8 @@ https://medium.com/javascript-inside/the-elegance-of-react-ebc21a2dcd19#.up1ezc4
 
 http://patternhatch.com/2016/08/02/a-primer-on-the-react-ecosystem-part-2-of-3/#container
 
+Internalization: https://www.smashingmagazine.com/2017/01/internationalizing-react-apps/
+
 #React style
 Styled-componets: https://www.smashingmagazine.com/2017/01/styled-components-enforcing-best-practices-component-based-systems/
 
